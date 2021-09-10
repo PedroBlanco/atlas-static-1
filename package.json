@@ -11,8 +11,9 @@
     "vite-plugin-pwa": "^0.11.2"
   },
   "dependencies": {
+    "leaflet": "^1.7.1",
+    "workbox-recipes": "^6.2.4",
     "workbox-routing": "^6.2.4",
-    "workbox-strategies": "^6.2.4",
-    "workbox-recipes": "^6.2.4"
+    "workbox-strategies": "^6.2.4"
   }
 }

@@ -13,9 +13,17 @@
       import { registerSW } from 'virtual:pwa-register';
       registerSW();
     </script>
+    <script src="./node_modules/leaflet/dist/leaflet-src.js"></script>
   </head>
   <body>
     <div id="app"></div>
+    <div id="mapid"></div>
     <script type="module" src="/main.js"></script>
+    <script>
+      console.log('Cargando...');
+      var map = L.map('mapid').setView([51.505, -0.09], 13);
+      map.addLayer(L.tileLayer(urlTemplate, {minZoom: 4}));
+      console.log('Cargado...');
+    </script>
   </body>
 </html>

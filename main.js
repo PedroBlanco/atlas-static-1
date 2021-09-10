@@ -1,6 +1,6 @@
 import './style.css'
+import './node_modules/leaflet/dist/leaflet.css'
 
 document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite-PWA!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  <h1>Atlas-Static-1!</h1>
 `
