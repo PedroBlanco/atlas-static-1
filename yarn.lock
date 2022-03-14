@@ -877,6 +877,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@ec-nordbund/rollup-plugin-leaflet@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ec-nordbund/rollup-plugin-leaflet/-/rollup-plugin-leaflet-1.0.0.tgz#194426ff40ceba4517627c9580922ad950a88d58"
+  integrity sha512-2TRjuany/qPWT5tDbHeY+Sn1Kw+s3jD2YlCy2symGjqihClgnIz48x3EhDiCeHrMl/0BWRv4MsQE4Mj2BL6S1A==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"

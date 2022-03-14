@@ -11,6 +11,7 @@
     "vite-plugin-pwa": "^0.11.2"
   },
   "dependencies": {
+    "@ec-nordbund/rollup-plugin-leaflet": "^1.0.0",
     "leaflet": "^1.7.1",
     "workbox-recipes": "^6.2.4",
     "workbox-routing": "^6.2.4",
